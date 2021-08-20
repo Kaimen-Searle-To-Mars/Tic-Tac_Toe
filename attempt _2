@@ -1,0 +1,61 @@
+# STEPS THAT THE WHILE LOOP SHOULD FOLLOW
+# 1: print board and ask player for where they want to place there X or O
+# 2: first it will check whether or not the value they input is valid
+# 3: check where spot is on the board  by row and col
+# 4: check whether spot is taken or not
+# 5: input players X or O in spot (should happen in print_board, i think)
+# 6: check for win by row, col, and diag.
+# 7: declare winner
+# 8: if turn count hits 9 == tie
+
+board = [
+    ["-", "-", "-"],
+    ["-", "-", "-"],
+    ["-", "-", "-"]
+]
+turn = 0
+player_turn = False
+
+
+def print_board(board, player_input):
+
+
+
+def check_valid_input(player_input):
+
+
+
+def check_row(board, player_input):
+
+
+
+def check_col(board, player_input):
+
+
+
+def check_taken_spot(board, player_input):
+
+
+
+def check_row_win(board):
+
+
+
+def check_col_win(board):
+
+
+
+def check_diag_win(board):
+
+
+
+while turn < 9:
+    print(print_board())
+    player_input = input("")
+
+
+# THESE ARE WHAT STEPS I TOOK WHILE WRITING MY CODE
+# 1: first thing i did was set value that i knew i needed for like board, player_turn, and turn.
+# 2: then i commented at the top the steps that my while loop needed.
+# 3: after i went through and defined all the functions i needed but didn't add anything to them.
+# 4: i then finally started to fill out the while loop and then the function i need.
